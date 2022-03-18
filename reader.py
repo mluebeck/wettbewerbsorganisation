@@ -98,7 +98,7 @@ class CSVReader():
 # opening the CSV file
     def openFile(self): 
         self.listeVonPersonen = ListeVonPersonen()
-        with open('/Users/mariorotz/swk-2022-01-19/data.csv', mode ='r') as file:
+        with open('./wettbewerbe/data.csv', mode ='r') as file:
             # reading the CSV file
             csvFile = csv.reader(file)
             # displaying the contents of the CSV file
